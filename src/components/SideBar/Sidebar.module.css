@@ -1,0 +1,21 @@
+.sideBarUnder {
+  display: flex;
+}
+.sideBarLeftUnder {
+  min-width: 3.2rem;
+  height: calc(100vh - 66px);
+}
+li svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.sideBarLeftUnder li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.sideBarLeftUnder a:global(.active) {
+  background-color: rgb(29, 78, 216);
+}

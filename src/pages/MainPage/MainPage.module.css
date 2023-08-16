@@ -1,0 +1,12 @@
+.mainLayOut {
+  display: flex;
+}
+.sideBarContainer {
+  width: 16rem;
+  background-color: rgb(14, 31, 51);
+  height: 100vh;
+  overflow: hidden;
+}
+.mainLayOut > div:last-child {
+  flex: 1;
+}

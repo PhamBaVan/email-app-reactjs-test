@@ -1,0 +1,30 @@
+.navBarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 66px;
+  border-bottom: 0.4px solid rgb(229, 231, 235);
+}
+.navBarColRight {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+.userInfor p {
+  font-weight: 300;
+}
+.userInfor p,
+.userInfor h4 {
+  margin: 0;
+}
+.navBarAvatar img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.containerLogOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 66px;
+}
+.header img {
+  height: 36px;
+}

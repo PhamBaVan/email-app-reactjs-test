@@ -1,0 +1,50 @@
+.loginBackground {
+  background-color: #0e1f33;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 32rem;
+  height: 28rem;
+  border-radius: 7px;
+}
+.formContainer {
+  width: 26rem;
+}
+.emailFieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.passwordFieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.emailFieldContainer label,
+.passwordFieldContainer label {
+  text-align: left;
+}
+.selectEmail {
+  padding: 6px 14px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.inputPassword {
+  padding: 6px 14px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.loginBtn {
+  /* width: 400px;
+  background-color: #152943; */
+}

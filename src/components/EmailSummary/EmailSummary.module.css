@@ -1,0 +1,63 @@
+.inboxContainer {
+  display: flex;
+  border-bottom: 0.8px solid rgb(209, 213, 219);
+}
+.inboxContainer:hover {
+  cursor: pointer;
+}
+.unreadInbox {
+  background-color: rgb(229, 231, 235);
+}
+.active {
+  background-color: #3b82f6;
+  color: white;
+}
+.inboxColLeft {
+  padding: 15px 0;
+  padding-left: 10px;
+}
+.inboxColLeft img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.inboxColRight {
+  padding: 15px 0;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.inboxColRight h5,
+.inboxColRight p {
+  margin: 0;
+}
+.nameTimeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameTimeContainer p {
+  font-size: 10px;
+}
+.inboxTitleContent p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* Specify the number of rows you want to limit */
+}
+.inboxTitleContent p,
+.inboxTitleContent h4 {
+  margin: 0;
+}
+.inboxTitleContent h4 {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1; /* Specify the number of rows you want to limit */
+}
+.inboxTitleContent p {
+  text-align: left;
+  font-size: 14px;
+}
